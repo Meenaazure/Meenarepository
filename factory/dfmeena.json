@@ -1,0 +1,9 @@
+{
+	"name": "dfmeena",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aed7cb23-6922-4ab9-80f4-fa9e2aed77b3",
+		"tenantId": "2afbc097-e8f1-47ac-af56-812069d65d5e"
+	}
+}
