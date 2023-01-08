@@ -126,7 +126,13 @@
 										"outputs": [
 											{
 												"referenceName": "dsoutput",
-												"type": "DatasetReference"
+												"type": "DatasetReference",
+												"parameters": {
+													"outputfilename": {
+														"value": "@item().name",
+														"type": "Expression"
+													}
+												}
 											}
 										]
 									}

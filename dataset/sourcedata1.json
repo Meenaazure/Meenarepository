@@ -15,10 +15,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": {
-					"value": "@dataset().filename",
-					"type": "Expression"
-				},
+				"fileName": "MarketLT1.txt",
 				"folderPath": "AdWork/Input",
 				"fileSystem": "container1"
 			},
