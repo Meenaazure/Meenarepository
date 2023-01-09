@@ -15,6 +15,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().outputfilename",
+					"type": "Expression"
+				},
 				"folderPath": "AdWork/Output/TXT",
 				"fileSystem": "container1"
 			},
