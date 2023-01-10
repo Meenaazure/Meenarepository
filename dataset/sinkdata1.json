@@ -19,7 +19,7 @@
 					"value": "@dataset().sinkname",
 					"type": "Expression"
 				},
-				"folderPath": "AdWork/Output",
+				"folderPath": "AdWork/Output/CSV",
 				"fileSystem": "container1"
 			},
 			"columnDelimiter": ",",
