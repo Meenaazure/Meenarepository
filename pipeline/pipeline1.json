@@ -117,7 +117,7 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"filename": {
-														"value": "\n@item().name",
+														"value": "@item().name",
 														"type": "Expression"
 													}
 												}
@@ -125,14 +125,8 @@
 										],
 										"outputs": [
 											{
-												"referenceName": "dsoutput",
-												"type": "DatasetReference",
-												"parameters": {
-													"outputfilename": {
-														"value": "@item().name",
-														"type": "Expression"
-													}
-												}
+												"referenceName": "dssink",
+												"type": "DatasetReference"
 											}
 										]
 									}
