@@ -17,9 +17,14 @@
 				"typeProperties": {
 					"dataset": {
 						"referenceName": "Binaryzip",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"filename": "*.zip"
+						}
 					},
-					"fieldList": [],
+					"fieldList": [
+						"childItems"
+					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"enablePartitionDiscovery": false
