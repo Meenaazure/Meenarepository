@@ -74,10 +74,7 @@
 										"deleteFilesAfterCompletion": false
 									},
 									"formatSettings": {
-										"type": "BinaryReadSettings",
-										"compressionProperties": {
-											"type": "ZipDeflateReadSettings"
-										}
+										"type": "BinaryReadSettings"
 									}
 								},
 								"sink": {
@@ -91,14 +88,8 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "Binaryzip",
-									"type": "DatasetReference",
-									"parameters": {
-										"filename": {
-											"value": "@item().name",
-											"type": "Expression"
-										}
-									}
+									"referenceName": "Binarystorage",
+									"type": "DatasetReference"
 								}
 							],
 							"outputs": [
