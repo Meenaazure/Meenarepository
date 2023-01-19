@@ -16,11 +16,8 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "Binary1storage",
-						"type": "DatasetReference",
-						"parameters": {
-							"filename": "*.zip"
-						}
+						"referenceName": "Binarystorage",
+						"type": "DatasetReference"
 					},
 					"fieldList": [
 						"childItems"
@@ -91,10 +88,10 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "Binary1storage",
+									"referenceName": "Binarystorage",
 									"type": "DatasetReference",
 									"parameters": {
-										"filename": {
+										"sourceinput": {
 											"value": "@item().name",
 											"type": "Expression"
 										}
